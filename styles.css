@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(39, 121, 28);
+    text-align: justify;
+}
+
+.main-web{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.mapa{
+    align-items: center;
+}
+/*
+.imagen-main{
+    width: 800px;
+    height: 600px;
+}
+
+.fotos{
+    height: 800px;
+    width: 600px;
+}
+*/
+footer{
+    margin-top: 5%;
+}

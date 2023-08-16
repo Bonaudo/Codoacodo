@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/styles.css">
+    <title>Proyecto codo a codo</title>
+</head>
+<body>
+    <div class="main-web"><a href="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/index.html"> <button>Página principal</button></a>
+    <h1>Museo de Bellas Artes</h1>
+    <img src="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/assets/Museo nacional de bellas artes.jpg" alt="Museo arte decorativo">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus odio repellendus quod consectetur similique quae sint ducimus, laudantium voluptas voluptatem enim suscipit a! Aspernatur, voluptas maxime voluptates et fugit suscipit!
+    Quos harum rem ipsa quis accusamus vero deserunt voluptatibus, itaque voluptates voluptatem, labore placeat minima nobis quo, beatae sint. Vero ipsum iste dolor soluta cumque ipsa earum dolore natus doloribus.
+    Porro nesciunt dolores, eos earum incidunt hic vel sunt laboriosam quisquam, culpa dolorum est sapiente. Placeat enim corporis saepe deserunt deleniti, reiciendis repudiandae aliquam sint esse minus? Esse, unde facere.</p><br>
+    <br>
+
+
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.7975272574713!2d-58.397510511145015!3d-34.58398939999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaa199c2f643%3A0x49e543b8331abe7d!2sMuseo%20Nacional%20de%20Bellas%20Artes!5e0!3m2!1ses-419!2sar!4v1692215908960!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <br>
+
+    
+    
+    
+    <footer> Todos los derechos e izquierdos reservados</footer></div>
+    <br>
+    
+    
+    
+    
+    <audio id="audioPlayer" >
+        <source src="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/assets/Vibing Over Venus.mp3" type="audio/mpeg">
+        Tu navegador no soporta la reproducción de audio.
+    </audio>
+    
+    <button id="playButton">▶️</button>
+    <button id="stopButton">⏹</button>
+    
+    <script>
+        const audio = document.getElementById('audioPlayer');
+        const playButton = document.getElementById('playButton');
+        const stopButton = document.getElementById('stopButton');
+        
+        playButton.addEventListener('click', function() {
+            audio.play();
+        });
+        
+        stopButton.addEventListener('click', function() {
+            audio.pause();
+            audio.currentTime = 0;
+        });
+    </script>
+</body>
+</html>

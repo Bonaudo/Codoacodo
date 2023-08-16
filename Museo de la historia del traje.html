@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/styles.css">
+    <title>Proyecto codo a codo</title>
+</head>
+<body>
+    <div class="main-web"><a href="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/index.html"> <button>Página principal</button></a>
+    <h1>Museo de la historia del traje</h1>
+    <img src="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/assets/Museo de la historia del traje.jpg" alt="Museo arte decorativo">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores possimus tenetur, cumque, commodi rem rerum minima, fugiat ipsa consequatur nam ex! Non eius at eum? Placeat praesentium dignissimos ipsa officia.
+    Commodi blanditiis necessitatibus labore totam excepturi adipisci eum, illum ex facere consequatur repellendus accusamus qui. Quos accusamus libero temporibus molestiae id nostrum voluptate, voluptatem quibusdam nisi distinctio omnis aut cumque.
+    Dolor autem hic, omnis iste nihil consequuntur non assumenda harum molestiae aut sit aliquam numquam dicta repellendus suscipit deleniti eum, repudiandae quas provident placeat? Itaque molestiae esse quis ex rerum.</p><br>
+    
+    <br>
+    <audio src="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/assets/Vibing Over Venus.mp3"  ></audio>
+
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.516379697829!2d-58.38038902481256!3d-34.616388858166545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb29fd89dd9b%3A0x52b20b9c250469fe!2sMuseo%20de%20la%20Historia%20del%20Traje!5e0!3m2!1ses-419!2sar!4v1692217972372!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <br>
+
+    
+    
+    
+    <footer> Todos los derechos e izquierdos reservados</footer></div>
+    <br>
+    
+    
+    
+    
+    <audio id="audioPlayer" >
+        <source src="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/assets/Vibing Over Venus.mp3" type="audio/mpeg">
+        Tu navegador no soporta la reproducción de audio.
+    </audio>
+    
+    <button id="playButton">▶️</button>
+    <button id="stopButton">⏹</button>
+    
+    <script>
+        const audio = document.getElementById('audioPlayer');
+        const playButton = document.getElementById('playButton');
+        const stopButton = document.getElementById('stopButton');
+        
+        playButton.addEventListener('click', function() {
+            audio.play();
+        });
+        
+        stopButton.addEventListener('click', function() {
+            audio.pause();
+            audio.currentTime = 0;
+        });
+    </script>
+</body>
+</html>

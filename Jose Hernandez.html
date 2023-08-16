@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/styles.css">
+    <title>Proyecto codo a codo</title>
+</head>
+<body>
+    <div class="main-web"><a href="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/index.html"> <button>Página principal</button></a>
+    <h1>Museo de Arte decorativo</h1>
+    <img src="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/assets/Museo de Arte Popular José Hernández.jpg" alt="Museo arte decorativo">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur doloribus harum similique nemo ducimus hic exercitationem magnam, sapiente, libero tempore eius adipisci asperiores fuga dolorem quisquam. Recusandae voluptate accusantium libero?
+    Saepe, harum. Est iusto illum ullam repellendus, non voluptatum similique fugit totam mollitia odit. Sint odit exercitationem, accusamus molestias maiores neque vitae et minima sed mollitia consequatur maxime voluptatem ex?
+    Aspernatur similique suscipit itaque, soluta corporis dignissimos numquam accusamus reiciendis tempora ad voluptate a cumque ea sapiente, cupiditate aliquam maiores! Nostrum delectus facere officiis maiores incidunt, ducimus a harum natus.</p><br>
+    <br>
+
+
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.9691772127894!2d-58.40751602481462!3d-34.57964645622642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb56346e82b9b%3A0xc7a83da73ee6a22e!2sMuseo%20de%20Arte%20Popular%20Jos%C3%A9%20Hern%C3%A1ndez!5e0!3m2!1ses-419!2sar!4v1692218177761!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <br>
+
+    
+    
+    
+    <footer> Todos los derechos e izquierdos reservados</footer></div>
+    <br>
+    
+    
+    
+    
+    <audio id="audioPlayer" >
+        <source src="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/assets/Vibing Over Venus.mp3" type="audio/mpeg">
+        Tu navegador no soporta la reproducción de audio.
+    </audio>
+    
+    <button id="playButton">▶️</button>
+    <button id="stopButton">⏹</button>
+    
+    <script>
+        const audio = document.getElementById('audioPlayer');
+        const playButton = document.getElementById('playButton');
+        const stopButton = document.getElementById('stopButton');
+        
+        playButton.addEventListener('click', function() {
+            audio.play();
+        });
+        
+        stopButton.addEventListener('click', function() {
+            audio.pause();
+            audio.currentTime = 0;
+        });
+    </script>
+</body>
+</html>

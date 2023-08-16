@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/styles.css">
+    <title>Proyecto codo a codo</title>
+</head>
+<body>
+   <div class="main-web"> <a href="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/index.html"> <button>Página principal</button></a>
+    <h1>Museo de Arte Moderno</h1>
+    <img src="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/assets/Museo de arte moderno.jpg" alt="Museo arte decorativo">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, provident ratione, dolores error minima eum excepturi iusto similique mollitia blanditiis sed alias rerum non ab doloremque obcaecati perspiciatis dolorem minus.
+    Earum corrupti commodi in id nesciunt veniam quas facilis officia placeat! Excepturi at repudiandae aspernatur! Minima molestias officia esse necessitatibus harum nemo non, obcaecati repellendus iusto consectetur rem consequuntur in!
+    Numquam ea ipsa iure maxime dolores aliquam esse cum. Qui veritatis animi commodi dicta tenetur doloremque nisi quisquam natus excepturi in voluptates officiis, cupiditate odit doloribus tempora aliquam quidem quia.</p><br>
+    <br>
+    
+
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.2926764392664!2d-58.373116424812224!3d-34.62204345846533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334d2dee93c85%3A0xd209b8d51c3521b5!2sMuseo%20Moderno!5e0!3m2!1ses-419!2sar!4v1692218079105!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <br>
+
+    
+    
+    
+    <footer> Todos los derechos e izquierdos reservados</footer></div>
+    <br>
+    
+    
+    
+    
+    <audio id="audioPlayer" >
+        <source src="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/assets/Vibing Over Venus.mp3" type="audio/mpeg">
+        Tu navegador no soporta la reproducción de audio.
+    </audio>
+    
+    <button id="playButton">▶️</button>
+    <button id="stopButton">⏹</button>
+    
+    <script>
+        const audio = document.getElementById('audioPlayer');
+        const playButton = document.getElementById('playButton');
+        const stopButton = document.getElementById('stopButton');
+        
+        playButton.addEventListener('click', function() {
+            audio.play();
+        });
+        
+        stopButton.addEventListener('click', function() {
+            audio.pause();
+            audio.currentTime = 0;
+        });
+    </script>
+</body>
+</html>

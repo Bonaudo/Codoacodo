@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/styles.css">
+    <link rel="icon" type="image/png" sizes="192x192" href="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/assets/android-icon-192x192.png">
+    <title>Proyecto codo a codo</title>
+    
+</head>
+<body>
+<nav>
+    <a href="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/Museo-arte-decorativo.html"> <button>Museo Nacional de Arte Decorativo</button></a>
+    <a href="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/Museo de arte moderno.html"> <button>Museo de arte moderno</button></a>
+    <a href="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/Jose Hernandez.html"> <button>Museo de Arte Popular José Hernández</button></a>
+    <a href="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/Museo de ciencias naturales.html"> <button>Museo de ciencias naturales</button></a>
+    <a href="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/Museo de la historia del traje.html"> <button>Museo de la historia del traje</button></a>
+    <a href="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/Museo Evita.html"> <button>Museo Evita</button></a>
+    <a href="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/Museo Nacional de Aeronautica.html"> <button>Museo Nacional de Aeronáutica</button></a>
+    <a href="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/malba.html"> <button>Museo Nacional de Arte latinoamericano MALBA</button></a>
+    <a href="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/Museo Nacional de Arte Oriental.html"> <button>Museo Nacional de Arte Oriental</button></a>
+    <a href="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/Museo nacional de bellas artes.html"> <button>Museo nacional de bellas artes</button></a>   
+<div class="main-web">
+    <Header><h1>Los 10 mejores museos de Buenos Aires</h1></Header>
+
+    <img class="imagen-main" src="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/assets/museos.jpg" alt="Noche de los museos">
+
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto excepturi mollitia voluptatem, perferendis veritatis qui! Expedita odit ullam nostrum tempora dicta possimus beatae eius at labore nisi, illum, dolores asperiores.
+Ea sapiente atque, voluptas sequi iste asperiores. Sunt voluptatem consectetur in officia, et, dolore aspernatur quae temporibus quia natus voluptates animi tempora molestiae. Aperiam aliquam quidem suscipit deserunt pariatur odio.
+Maxime, sit quibusdam dolorem exercitationem illo hic necessitatibus neque possimus. Modi dolorem eaque ad fuga corporis aliquid nam. Illum, exercitationem obcaecati hic ut odio quis delectus neque corporis iusto tenetur!
+Ea ipsum maiores explicabo dolorum. Harum possimus ratione libero officiis repudiandae hic eum consequuntur ab vitae, nihil aliquid sequi quod autem, ut veritatis atque temporibus nostrum. Expedita accusamus odio laborum!</p>
+
+
+<footer> Todos los derechos e izquierdos reservados</footer></div>
+
+
+
+<audio id="audioPlayer" >
+    <source src="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/assets/Vibing Over Venus.mp3" type="audio/mpeg">
+    Tu navegador no soporta la reproducción de audio.
+</audio>
+
+<button id="playButton">▶️</button>
+<button id="stopButton">⏹</button>
+
+<script>
+    const audio = document.getElementById('audioPlayer');
+    const playButton = document.getElementById('playButton');
+    const stopButton = document.getElementById('stopButton');
+    
+    playButton.addEventListener('click', function() {
+        audio.play();
+    });
+    
+    stopButton.addEventListener('click', function() {
+        audio.pause();
+        audio.currentTime = 0;
+    });
+</script>
+
+</body>
+</html>

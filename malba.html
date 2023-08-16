@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/styles.css">
+    <title>Proyecto codo a codo</title>
+</head>
+<body>
+    <div class="main-web"><a href="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/index.html"> <button>Página principal</button></a>
+    <h1>Museo de Arte decorativo</h1>
+    <img src="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/assets/Museo de Arte Latinoamericano de Buenos Aires (MALBA).jpg" alt="Museo arte decorativo">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae aliquid sed mollitia distinctio, id rerum error illum consequatur tenetur, dignissimos quidem ducimus nam quas voluptatum quis ad blanditiis quam quaerat.
+    Consectetur harum culpa optio esse tempora facilis, quo laudantium laboriosam consequatur recusandae magnam qui repudiandae possimus aut fugit praesentium impedit nam doloremque quam alias reiciendis? Repellendus explicabo consectetur nostrum iste?
+    Quidem placeat molestias autem, quas nostrum dolorem aut aspernatur libero fugiat porro magnam iste ad iusto tempore tempora! Obcaecati dolorem quidem ullam commodi, maxime quos impedit distinctio ratione mollitia officiis!</p><br>
+    <br>
+    
+
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.0783208660077!2d-58.40801142397575!3d-34.57688474631204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb564f74f69c3%3A0xeea87be2795e86d2!2sMuseo%20de%20Arte%20Latinoamericano%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1692218101149!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <br>
+
+    
+    
+    
+    <footer> Todos los derechos e izquierdos reservados</footer></div>
+    <br>
+    
+    
+    
+    
+    <audio id="audioPlayer" >
+        <source src="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/assets/Vibing Over Venus.mp3" type="audio/mpeg">
+        Tu navegador no soporta la reproducción de audio.
+    </audio>
+    
+    <button id="playButton">▶️</button>
+    <button id="stopButton">⏹</button>
+    
+    <script>
+        const audio = document.getElementById('audioPlayer');
+        const playButton = document.getElementById('playButton');
+        const stopButton = document.getElementById('stopButton');
+        
+        playButton.addEventListener('click', function() {
+            audio.play();
+        });
+        
+        stopButton.addEventListener('click', function() {
+            audio.pause();
+            audio.currentTime = 0;
+        });
+    </script>
+</body>
+</html>

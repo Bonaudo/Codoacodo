@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/styles.css">
+    <title>Proyecto codo a codo</title>
+</head>
+<body>
+    <div class="main-web"><a href="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/index.html"> <button>Página principal</button></a>
+    <h1>Museo de Arte Oriental</h1>
+    <img src="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/assets/Museo Nacional de Arte Oriental.jpg" alt="Museo arte decorativo">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et architecto veritatis aliquam quasi qui, autem in, sint ipsam repellendus officiis, commodi a. Perspiciatis repellendus porro ipsa quidem quod quis velit.
+    Vel, pariatur mollitia modi aperiam magni quia repudiandae culpa sit ad laudantium eum eos sequi sed. Blanditiis eos illo quia ab, fugiat magnam quas, illum itaque obcaecati, labore aspernatur dicta!
+    Molestias quam repellat amet eligendi? Est itaque cupiditate, nulla esse pariatur eveniet omnis alias consequuntur officiis rerum odit ipsum maiores cumque cum quos magnam voluptates sunt delectus minima nisi modi.</p><br>
+    
+    <br>
+
+
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.178707550753!2d-58.37892442396874!3d-34.5996422974954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5620210fbd5%3A0xc079e6c58b8d3375!2sMuseo%20Nacional%20de%20Arte%20Oriental!5e0!3m2!1ses-419!2sar!4v1692217354217!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <br>
+
+    
+    
+    
+    <footer> Todos los derechos e izquierdos reservados</footer></div>
+    <br>
+    
+    
+    
+    
+    <audio id="audioPlayer" >
+        <source src="/CODO A CODO/Actividades practicas/PROYECTO PYTHON/assets/Vibing Over Venus.mp3" type="audio/mpeg">
+        Tu navegador no soporta la reproducción de audio.
+    </audio>
+    
+    <button id="playButton">▶️</button>
+    <button id="stopButton">⏹</button>
+    
+    <script>
+        const audio = document.getElementById('audioPlayer');
+        const playButton = document.getElementById('playButton');
+        const stopButton = document.getElementById('stopButton');
+        
+        playButton.addEventListener('click', function() {
+            audio.play();
+        });
+        
+        stopButton.addEventListener('click', function() {
+            audio.pause();
+            audio.currentTime = 0;
+        });
+    </script>
+</body>
+</html>
