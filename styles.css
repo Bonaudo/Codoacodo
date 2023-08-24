@@ -14,10 +14,9 @@ body{
 .mapa{
     align-items: center;
 }
-/*
+
 .imagen-main{
-    width: 800px;
-    height: 600px;
+    height: 70%;
 }
 
 .fotos{
