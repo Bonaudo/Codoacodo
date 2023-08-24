@@ -9,15 +9,13 @@ body{
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
-    height: 50%;
-    width: 50%;
 }
 
 .mapa{
     align-items: center;
 }
-/*
-.imagen-main{
+
+.foto-main{
     height: 40%;
     width: 40%;    
 }
