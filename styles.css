@@ -1,4 +1,4 @@
-*{
+body{
     background-color: rgb(39, 121, 28);
     text-align: justify;
     height: 100%;
@@ -17,6 +17,7 @@
 
 .imagen-main{
     height: 70%;
+    width: 70%;
 }
 
 .fotos{
